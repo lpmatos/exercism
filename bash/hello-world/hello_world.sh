@@ -3,6 +3,7 @@
 # Option to exit with any command fails
 set -e
 
+# Main function
 function main(){
   echo "Hello, World!"
 }
