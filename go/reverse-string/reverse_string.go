@@ -1,5 +1,7 @@
 package reverse
 
+import "fmt"
+
 // Message struct.
 type Message struct {
 	content string
@@ -9,7 +11,8 @@ type Message struct {
 func Reverse(content string) (result string) {
 	message := Message{content: content}
 	for _, value := range message.content {
-		result = string(value) + result
+		// result = string(value) + result
+		result = fmt.Sprintf("%c", value) + result
 	}
 	return
 }
