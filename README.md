@@ -6,6 +6,7 @@ O Exercism é uma plataforma de codificação on-line, de código aberto e gratu
 
 * Bash
 * GoLang
+* Ruby
 
 ### Author
 
